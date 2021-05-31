@@ -1,3 +1,38 @@
-li {
-    list-style: none;
+h1 {
+    text-align: center;
+}
+
+.find-cep {
+    display: flex;
+    justify-content: center;
+}
+
+.cep {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.btn-pesquisar {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.btn-apagar {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.result-cep {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.list-cep input {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 2px solid black;
 }

@@ -8,23 +8,30 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div>
+    <h1>Find Cep</h1>
+    <div class="find-cep">
         <form action="">
             <label for="cep">Digite o Cep:</label>
             <input type="number" id="cep" name="cep" class="cep">
             <input type="submit" value="Pesquisar" class="btn-pesquisar">
+            <button class="btn-apagar">Apagar</button>
         </form>
     </div>
     <div class="result-cep">
-        <ul class="list-cep">
-            <li class="cep"></li>
-            <li class="logradouro"></li>
-            <li class="complemento"></li>
-            <li class="bairro"></li>
-            <li class="localidade"></li>
-            <li class="uf"></li>
-            <li class="ddd"></li>
-        </ul>
+        <form class="list-cep">
+            <label for="logradouro">Logradouro:</label>
+            <input class="logradouro" id="logradouro"></input>
+            <label for="complemento">Complemento:</label>
+            <input class="complemento" id="complemento"></input>
+            <label for="bairro">Bairro:</label>
+            <input class="bairro" id="bairro"></input>
+            <label for="localidade">Localidade:</label>
+            <input class="localidade" id="localidade"></input>
+            <label for="uf">UF:</label>
+            <input class="uf" id="uf"></input>
+            <label for="ddd">DDD:</label>
+            <input class="ddd" id="ddd"></input>
+        </form>
     </div>
     <script type="module" src="./js/script.js"></script>
 </body>
